@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table{
+            border: 1px solid #000;
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        tr, td{
+            border: 1px solid #000;
+            padding: 7px;
+            text-align: left;
+        }
+        th{background-color:#5426fa ;
+        }
+        tr{background-color: #aea0fd;
+        }
+        tr:hover{background-color: #8774f1; }
+    </style>
+    
+</head>
+<body>
+
+  
+
+    <table>
+        <caption>Preços de Produtos Eletronicos</caption>
+        <thead>
+            <tr>
+                
+                <th>Produtos</th>
+                <th>preços</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Notebook</td>
+                <td>R$ 3.000,00</td>
+            </tr>
+            <tr> 
+                <td>Smartphone</td>
+                <td>R$ 1.200,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+              <td>Total</td>
+                <td>R$ 4.700,00</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <style>
+        table{
+            border: 1px solid #000;
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        tr, td{
+            border: 1px solid #000;
+            padding: 7px;
+            text-align: left;
+        }
+        th{background-color:#5426fa ;
+        }
+        tr{background-color: #aea0fd;
+        }
+        tr:hover{background-color: #8774f1; }
+    </style>
+
+    <table>
+        <caption>Preços de Produtos Eletronicos</caption>
+        <thead>
+            <tr>
+                
+                <th colspan="2">Produtos</th>
+                <th thcolspan="2">preços</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Notebook</td>
+                <td>R$ 3.000,00</td>
+            </tr>
+            <tr> 
+                <td>Smartphone</td>
+                <td>R$ 1.200,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+              <td>Total</td>
+                <td>R$ 4.700,00</td>
+            </tr>
+        </tfoot>
+    </table>
+     
